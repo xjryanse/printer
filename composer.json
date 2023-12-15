@@ -1,0 +1,20 @@
+{
+    "name": "xjryanse/printer",
+    "description": "打印表，基于TP框架",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xjryanse",
+            "email": "xjryanse@sina.com"
+        }
+    ],
+    "require": {
+        "xjryanse/traits": "0.0.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "xjryanse\\printer\\": "src/"
+        }
+    }
+}
